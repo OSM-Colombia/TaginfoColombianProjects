@@ -13,6 +13,10 @@
            {
                "key": "source",
                "value": "OCHA Colombia 2010"
+           },
+           {
+               "key": "comment",
+               "value": "convertido a OSM usando http://GaleNUx.com"
            }
        ]               # list of keys and tags used (see below)
    }
