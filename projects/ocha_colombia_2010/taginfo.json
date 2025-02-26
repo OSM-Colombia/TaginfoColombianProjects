@@ -17,6 +17,10 @@
            {
                "key": "comment",
                "value": "convertido a OSM usando http://GaleNUx.com"
+           },
+           {
+               "key": "fixme",
+               "value": "Revisar: este punto fue creado por importación directa"
            }
        ]               # list of keys and tags used (see below)
    }
