@@ -21,6 +21,10 @@
            {
                "key": "fixme",
                "value": "Revisar: este punto fue creado por importación directa"
+           },
+           {
+               "key": "place",
+               "value": "locality"
            }
        ]               # list of keys and tags used (see below)
    }
