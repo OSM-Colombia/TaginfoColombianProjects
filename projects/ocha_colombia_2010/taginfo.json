@@ -1,0 +1,18 @@
+   {
+       "data_format": 1,           # data format version, currently always 1, will get updated if there are incompatible changes to the format (required)
+       "data_url": "https://github.com/OSM-Colombia/TaginfoColombianProjects/blob/main/projects/ocha_colombia_2010/taginfo.json",          # this should be the URL under which this project file can be accessed (optional)
+       "data_updated": "20250226T030000Z", # timestamp when project file was updated (optional, will use HTTP header date if not available)
+       "project": {                # meta information about the project (required)
+           "name": "OCHA import Colombia 2010",          # name of the project (required)
+           "description": "Import Colombian boundaries using OCHA datasource",   # short description of the project (required)
+           "project_url": "https://wiki.openstreetmap.org/wiki/Colombia/Project/OCHA_Boundary_Import",   # home page of the project with general information (required)
+           "contact_name": "Andres Gomez Casanova-AngocA",  # contact name, needed for taginfo maintainer (required)
+           "contact_email": "angoca at yahoo dot com"  # contact email, needed for taginfo maintainer (required)
+       },
+       "tags": [
+           {
+               "key": "source",
+               "value": "OCHA Colombia 2010"
+           }
+       ]               # list of keys and tags used (see below)
+   }
