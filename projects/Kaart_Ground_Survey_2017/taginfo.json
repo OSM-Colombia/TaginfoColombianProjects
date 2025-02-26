@@ -1,0 +1,18 @@
+   {
+       "data_format": 1,           # data format version, currently always 1, will get updated if there are incompatible changes to the format (required)
+       "data_url": "https://github.com/OSM-Colombia/TaginfoColombianProjects/blob/main/projects/Kaart_Ground_Survey_2017/taginfo.json",          # this should be the URL under which this project file can be accessed (optional)
+       "data_updated": "20250226T030000Z", # timestamp when project file was updated (optional, will use HTTP header date if not available)
+       "project": {                # meta information about the project (required)
+           "name": "Kaart Ground Survey 2017",          # name of the project (required)
+           "description": "Add addresses in Bogota",   # short description of the project (required)
+           "project_url": "https://wiki.openstreetmap.org/wiki/ES:Colombia/Projecto/Trabajo_en_terreno_de_Kaart",   # home page of the project with general information (required)
+           "contact_name": "Andres Gomez Casanova-AngocA",  # contact name, needed for taginfo maintainer (required)
+           "contact_email": "angoca at yahoo dot com"  # contact email, needed for taginfo maintainer (required)
+       },
+       "tags": [
+           {
+               "key": "source",
+               "value": "Kaart␣Ground␣Survey␣2017"
+           }
+       ]               # list of keys and tags used (see below)
+   }
